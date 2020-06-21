@@ -54,8 +54,8 @@ let lvl = 1;
 
 let rankedmatch = 0;
 
-let color = greenbox;//['green'];
-localStorage.getItem('colorr') ? color=localStorage.getItem('colorr') : color=greenbox;
+let color = green;//['green'];
+localStorage.getItem('colorr') ? color=localStorage.getItem('colorr') : color=green;
 
 let money;
 localStorage.getItem('moneyy') > 0 ? money=localStorage.getItem('moneyy') : money=0;
